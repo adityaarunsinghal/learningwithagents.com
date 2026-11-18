@@ -1,0 +1,15 @@
+# 2026 workshop
+
+# Learning with Agents
+
+> NYU Agentic AI workshop materials taught by Adi Singhal and Luca Chang.
+
+- [2026 workshop](https://learningwithagents.com/2026/): Current edition with curriculum, recordings, chapters, slides and starter code.
+- [2026 Markdown](https://learningwithagents.com/2026.md): The same published course in text.
+- [2025 archive](https://learningwithagents.com/2025/): Historical course and recordings.
+- [2025 Markdown](https://learningwithagents.com/2025.md): The same archive in text.
+- [Workshop data](https://learningwithagents.com/api/v1/workshops.json): Structured information for both years.
+- [API specification](https://learningwithagents.com/openapi.json): Available read-only GET endpoints.
+- [Agent guidance](https://learningwithagents.com/agents.md): Reading and citation instructions.
+- [Access](https://learningwithagents.com/auth.md): Public access and failure handling.
+- [Privacy](https://adityasinghal.com/privacy/): Shared privacy information.

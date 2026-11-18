@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1",
+  "sourceUrl": "https://learningwithagents.com/",
+  "modified": "2026-11-02",
+  "name": "Learning with Agents workshop API",
+  "readOnly": true,
+  "authentication": "none",
+  "documentationUrl": "https://learningwithagents.com/agents.md",
+  "openApiUrl": "https://learningwithagents.com/openapi.json",
+  "endpoints": [
+    {
+      "path": "/api/v1/index.json",
+      "operationId": "getApiIndex",
+      "summary": "Discover workshop data",
+      "url": "https://learningwithagents.com/api/v1/index.json",
+      "method": "GET"
+    },
+    {
+      "path": "/api/v1/workshops.json",
+      "operationId": "listWorkshops",
+      "summary": "Read both workshop editions and their published resources",
+      "url": "https://learningwithagents.com/api/v1/workshops.json",
+      "method": "GET"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Learning with Agents workshop API",
+    "version": "1.0.0",
+    "description": "Read-only public course information. No credentials required."
+  },
+  "servers": [
+    {
+      "url": "https://learningwithagents.com"
+    }
+  ],
+  "security": [],
+  "paths": {
+    "/api/v1/index.json": {
+      "get": {
+        "operationId": "getApiIndex",
+        "summary": "Discover workshop data",
+        "responses": {
+          "200": {
+            "description": "Published JSON document",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "apiVersion",
+                    "sourceUrl",
+                    "modified"
+                  ],
+                  "properties": {
+                    "apiVersion": {
+                      "const": "1"
+                    },
+                    "sourceUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "modified": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "endpoints": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/workshops.json": {
+      "get": {
+        "operationId": "listWorkshops",
+        "summary": "Read both workshop editions and their published resources",
+        "responses": {
+          "200": {
+            "description": "Published JSON document",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "apiVersion",
+                    "sourceUrl",
+                    "modified"
+                  ],
+                  "properties": {
+                    "apiVersion": {
+                      "const": "1"
+                    },
+                    "sourceUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "modified": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "workshops": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "year",
+                          "url",
+                          "recordings"
+                        ],
+                        "properties": {
+                          "year": {
+                            "type": "integer",
+                            "enum": [
+                              2025,
+                              2026
+                            ]
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "recordings": {
+                            "type": "array",
+                            "items": {
+                              "type": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
