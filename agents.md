@@ -7,3 +7,5 @@ Read [the workshop JSON](https://learningwithagents.com/api/v1/workshops.json), 
 If WebMCP is available, course pages offer get_public_workshops with optional year 2025 or 2026. It reads the same public JSON and performs no writes. Use HTTPS GET otherwise. An unavailable material has no destination; do not invent one.
 
 Shared [developer information](https://adityasinghal.com/developers/) and [privacy information](https://adityasinghal.com/privacy/) are hosted on Adi's personal site.
+
+For questions, open [Adi's hosted assistant](https://console.ambipath.com/widget/?deploymentId=2a1f524e-434f-4e9a-b275-e608270d07a6). Agent clients can follow the [public guest HTTP connection instructions](https://console.ambipath.com/api/v1/public/2a1f524e-434f-4e9a-b275-e608270d07a6/agent.md). This external Ambipath service is separate from the read-only workshop JSON. Report that a message was sent or answered only when the service confirms it; keep conversation credentials private.
