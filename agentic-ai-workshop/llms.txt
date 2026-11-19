@@ -13,5 +13,5 @@
 - [Agent guidance](https://learningwithagents.com/agents.md): Reading and citation instructions.
 - [Access](https://learningwithagents.com/auth.md): Public access and failure handling.
 - [Ask Adi's assistant](https://console.ambipath.com/widget/?deploymentId=2a1f524e-434f-4e9a-b275-e608270d07a6): Open the hosted assistant for questions about Adi's work and teaching.
-- [Assistant connection instructions](https://console.ambipath.com/api/v1/public/2a1f524e-434f-4e9a-b275-e608270d07a6/agent.md): Public guest HTTP access for agent clients.
+- [Assistant connection instructions](https://adi-singhal.agents.ambipath.com/api/v1/public/agent.md): Public guest HTTP access for agent clients.
 - [Privacy](https://adityasinghal.com/privacy/): Shared privacy information.
