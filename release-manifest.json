@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sourceSha": "a0b1aaba54b5f543dee2a05b9cf071d318df4dab",
-  "sourceDigest": "ea41687a5412b64f6e735ff01141ee95ac4bb6e04f3ce7fcdee0e74a75a6d72e",
-  "releaseId": "a0b1aaba54b5f543dee2a05b9cf071d318df4dab-44436609079",
-  "runId": "44436609079",
+  "sourceSha": "524569552f90ef94e7b38dad9fa32cb7533168da",
+  "sourceDigest": "e6692de4b78ae671b37499938462aeee224ecdaa9b1175794cb1ba4ffa85c562",
+  "releaseId": "524569552f90ef94e7b38dad9fa32cb7533168da-44960979173",
+  "runId": "44960979173",
   "role": "workshops",
   "routeMapVersion": 1,
   "files": {
